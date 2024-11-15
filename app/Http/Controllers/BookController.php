@@ -19,7 +19,7 @@ class BookController extends Controller
 
             return new BookResource($book);
         } catch (ModelNotFoundException $e) {
-            return response()->json(['message' => 'Book not found']);
+            return response()->json(['message' => 'Book not found'], 404);
         }
     }
 
@@ -33,7 +33,7 @@ class BookController extends Controller
         $book = Book::create($validated);
 
         return response()->json([
-            'Message' => 'Book created successfully!',
+            'message' => 'Book created successfully!',
             'data' => new BookResource($book)
         ], 201);
     }
@@ -50,12 +50,12 @@ class BookController extends Controller
             $book->update($validated);            
         } catch (ModelNotFoundException $e) {
             return response()->json([
-                'Message' => 'Book not found',
+                'message' => 'Book not found',
             ], 404);
         }
         
         return response()->json([
-            'Message' => 'Book edited successfully!',
+            'message' => 'Book edited successfully!',
             'data' => new BookResource($book)
         ]);
     }
