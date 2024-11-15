@@ -52,7 +52,7 @@ A RESTful API for managing book-related operations
      ```json
      {
        "message": "Book added successfully",
-       "book": {
+       "data": {
          "id": 2,
          "title": "New Book Title",
          "author": "Author Name",
