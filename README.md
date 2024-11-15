@@ -1,6 +1,6 @@
 # GDSC Book API
 
-A RESTful API for managing book-related operations, built for developers looking to integrate book data management capabilities into their applications.
+A RESTful API for managing book-related operations
 
 ## API Endpoints
 
