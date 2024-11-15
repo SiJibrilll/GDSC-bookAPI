@@ -46,7 +46,6 @@ A RESTful API for managing book-related operations
    - **Example Response**:
      ```json
      {
-       "success": true,
        "message": "Book added successfully",
        "book": {
          "id": 2,
@@ -72,7 +71,6 @@ A RESTful API for managing book-related operations
    - **Example Response**:
      ```json
      {
-       "success": true,
        "message": "Book updated successfully"
      }
      ```
@@ -84,7 +82,6 @@ A RESTful API for managing book-related operations
    - **Example Response**:
      ```json
      {
-       "success": true,
        "message": "Book deleted successfully"
      }
      ```
