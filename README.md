@@ -5,7 +5,7 @@ A RESTful API for managing book-related operations
 ## API Endpoints
 
 ### 1. **GET /api/books**
-   - **Description**: Retrieves a list of all books in the database.
+   Retrieves a list of all books in the database.
    - **Example Response**:
      ```json
      [
@@ -25,7 +25,7 @@ A RESTful API for managing book-related operations
      ```
 
 ### 2. **GET /api/books/{id}**
-   - **Description**: Fetches details of a specific book by its ID.
+   Fetches details of a specific book by its ID.
    - **Parameters**: 
      - `id` _(integer)_: Unique identifier of the book.
    - **Example Response**:
@@ -39,7 +39,7 @@ A RESTful API for managing book-related operations
      ```
 
 ### 3. **POST /api/books**
-   - **Description**: Adds a new book to the collection.
+   Adds a new book to the collection.
    - **Request Body**:
      ```json
      {
@@ -62,7 +62,7 @@ A RESTful API for managing book-related operations
      ```
 
 ### 4. **PUT /api/books/{id}**
-   - **Description**: Updates the details of an existing book.
+   Updates the details of an existing book.
    - **Parameters**:
      - `id` _(integer)_: Unique identifier of the book.
    - **Request Body**:
@@ -81,7 +81,7 @@ A RESTful API for managing book-related operations
      ```
 
 ### 5. **DELETE /api/books/{id}**
-   - **Description**: Deletes a book from the collection by its ID.
+   Deletes a book from the collection by its ID.
    - **Parameters**:
      - `id` _(integer)_: Unique identifier of the book.
    - **Example Response**:
