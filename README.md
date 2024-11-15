@@ -45,7 +45,9 @@ A RESTful API for managing book-related operations
      {
        "title": "New Book Title",
        "author": "Author Name",
-       "published_at": "2024-10-3"
+       "published_at": "2024-10-3",
+       "updated_at": "2024-11-15T23:22:30.000000Z",
+       "created_at": "2024-11-15T23:22:30.000000Z",
      }
      ```
    - **Example Response**:
