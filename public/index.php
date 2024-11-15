@@ -31,7 +31,7 @@ if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php'))
 |
 */
 
-require __DIR__.'/../repositories/GDSC-bookAPI/vendor/autoload.php';
+require __DIR__.'/../../repositories/GDSC-bookAPI/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ require __DIR__.'/../repositories/GDSC-bookAPI/vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../repositories/GDSC-bookAPI/bootstrap/app.php';
+$app = require_once __DIR__.'/../../repositories/GDSC-bookAPI/bootstrap/app.php';
 
 // set the public path to this directory
 $app->bind('path.public', function() {
