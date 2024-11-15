@@ -14,6 +14,12 @@ A RESTful API for managing book-related operations
          "title": "Book Title",
          "author": "Author Name",
          "published_year": 2023
+       },
+       {
+         "id": 2,
+         "title": "Book Title",
+         "author": "Author Name",
+         "published_year": 2023
        }
      ]
      ```
