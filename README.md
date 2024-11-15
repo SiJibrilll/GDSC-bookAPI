@@ -13,13 +13,13 @@ A RESTful API for managing book-related operations
          "id": 1,
          "title": "Book Title",
          "author": "Author Name",
-         "published_year": 2023
+         "published_at": "2024-10-3"
        },
        {
          "id": 2,
          "title": "Book Title",
          "author": "Author Name",
-         "published_year": 2023
+         "published_at": "2024-10-3"
        }
      ]
      ```
@@ -34,7 +34,7 @@ A RESTful API for managing book-related operations
        "id": 1,
        "title": "Book Title",
        "author": "Author Name",
-       "published_year": 2023
+       "published_at": "2024-10-3"
      }
      ```
 
@@ -45,7 +45,7 @@ A RESTful API for managing book-related operations
      {
        "title": "New Book Title",
        "author": "Author Name",
-       "published_year": 2024
+       "published_at": "2024-10-3"
      }
      ```
    - **Example Response**:
@@ -56,7 +56,7 @@ A RESTful API for managing book-related operations
          "id": 2,
          "title": "New Book Title",
          "author": "Author Name",
-         "published_year": 2024
+         "published_at": "2024-10-3"
        }
      }
      ```
@@ -70,7 +70,7 @@ A RESTful API for managing book-related operations
      {
        "title": "Updated Title",
        "author": "Updated Author",
-       "published_year": 2025
+       "published_at": "2024-10-3"
      }
      ```
    - **Example Response**:
