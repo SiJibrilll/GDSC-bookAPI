@@ -84,7 +84,15 @@ A RESTful API for managing book-related operations
    - **Example Response**:
      ```json
      {
-       "message": "Book updated successfully"
+       "message": "Book updated successfully",
+       "data": {
+         "id": 2,
+         "title": "Updated Title",
+         "author": "Updated Author",
+         "published_at": "2024-10-3",
+         "created_at": "2024-11-15T23:22:30.000000Z",
+         "updated_at": "2024-11-15T23:22:30.000000Z",
+       }
      }
      ```
 
